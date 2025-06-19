@@ -1,0 +1,57 @@
+.bud-ed-info {
+  background-color: #54c9dc;
+  color: white;
+  padding: 40px 20px;
+  text-align: end;
+}
+
+.bud-ed-title {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.bud-ed-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.bud-ed-card {
+  max-width: 400px;
+  text-align: left;
+}
+
+.bud-ed-subtitle {
+  background-color: #0e406a;
+  padding: 10px 16px;
+  border-radius: 6px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bud-ed-card p {
+  margin: 10px 0;
+}
+
+.bud-ed-notes {
+    text-align: start;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+
+.bud-ed-note {
+  max-width: 700px;
+  font-size: 1em;
+  color: #002a53;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #002a53;
+}

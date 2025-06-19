@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./css/FAQSection.css";
 import "./css/BUDSection.css";
+import "./css/Footer.css";
 
 export const FAQSection = () => {
   const faqs = [
@@ -195,22 +196,46 @@ export const BUDItem = () => {
 };
 
 export const InfoObat = () => {
-  return (
-    <>
-    </>
-  )
-}
+  return <></>;
+};
 
 export const ArtikelObat = () => {
-  return (
-    <>
-    </>
-  )
-}
+  return <></>;
+};
 
 export const TanyaApoteker = () => {
+  return <></>;
+};
+
+export const Footer = () => {
   return (
     <>
+      <footer className="footer">
+        <div className="left">
+          <img src="https://sipio.tangerangselatankota.go.id/static/media/logoPuskesmasPamulang.d661861b.png" />
+          <p className="text">
+            <span>Alamat</span>
+            <p>
+              Jl. Surya Kencana No.1, Pamulang Barat, Kec. Pamulang, Kota
+              Tangerang Selatan, Banten 15417
+            </p>
+          </p>
+          <p className="text">
+            <span>Telepon</span>
+            <p>(021) 7445537</p>
+          </p>
+        </div>
+        <div className="right">
+          <img
+            className="logo-tangsel"
+            src="https://sipio.tangerangselatankota.go.id/static/media/LogoTangSel.7b6a04c1.png"
+          />
+          <img
+            className="logo-kemenkes"
+            src="https://sipio.tangerangselatankota.go.id/static/media/LogoKemenkes.4d1a67f2.png"
+          />
+        </div>
+      </footer>
     </>
-  )
-}
+  );
+};

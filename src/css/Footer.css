@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 43, 124);
+    gap: 5em;
+    padding: 2em;
+}
+
+.footer .left {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer .left img {
+    width: 12em;
+    height: 5em;
+}
+
+.footer .right img.logo-tangsel {
+    width: 5em;
+}
+
+.footer .right img.logo-kemenkes {
+    width: 7em;
+}
+
+.footer .left .text {
+    color: rgb(226, 226, 226);
+    max-width: 400px;
+}
+
+.footer .left .text span {
+    font-weight: bold;
+}
+
+.footer .right {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}

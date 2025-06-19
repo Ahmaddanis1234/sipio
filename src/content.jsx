@@ -77,49 +77,140 @@ const FAQItem = ({ question, answer }) => {
 
 export const BUDItem = () => {
   return (
-    <section className="bud-ed-info">
-      <h2 className="bud-ed-title">Kenali Waktu Penggunaan Obat</h2>
-      <div className="bud-ed-boxes">
-        <div className="bud-ed-card">
-          <h3 className="bud-ed-subtitle bud">Beyond Use Date (BUD)</h3>
-          <p>
-            <strong>Definisi</strong>
-            <br />
-            Batas waktu penggunaan produk obat setelah diracik/disiapkan atau
-            setelah kemasan primernya dibuka/dirusak (ampul, vial, blister, dll
-            yang bersentuhan langsung dengan obat).
-          </p>
-          <p>
-            <strong>Kegunaan</strong>
-            <br />
-            Menentukan batasan waktu stabil suatu obat.
+    <>
+      <section className="bud-ed-info">
+        <h2 className="bud-ed-title">Kenali Waktu Penggunaan Obat</h2>
+        <div className="bud-ed-boxes">
+          <div className="bud-ed-card">
+            <h3 className="bud-ed-subtitle bud">Beyond Use Date (BUD)</h3>
+            <p>
+              <strong>Definisi</strong>
+              <br />
+              Batas waktu penggunaan produk obat setelah diracik/disiapkan atau
+              setelah kemasan primernya dibuka/dirusak (ampul, vial, blister,
+              dll yang bersentuhan langsung dengan obat).
+            </p>
+            <p>
+              <strong>Kegunaan</strong>
+              <br />
+              Menentukan batasan waktu stabil suatu obat.
+            </p>
+          </div>
+          <div className="bud-ed-card">
+            <h3 className="bud-ed-subtitle ed">Expired Date (ED)</h3>
+            <p>
+              <strong>Definisi</strong>
+              <br />
+              Tanggal terakhir di mana keefektifan dan keamanan produk obat
+              masih terjamin untuk dikonsumsi atau digunakan oleh konsumen.
+            </p>
+            <p>
+              <strong>Kegunaan</strong>
+              <br />
+              Menentukan batasan waktu stabil suatu obat.
+            </p>
+          </div>
+        </div>
+        <div className="bud-ed-notes">
+          <p className="bud-ed-note">
+            Waktu BUD bisa sama atau lebih pendek dibandingkan ED. Karena inilah
+            penting untuk tenaga kesehatan khususnya{" "}
+            <strong className="highlight">
+              Apoteker untuk mengetahui ketentuan dan mencantumkan pada kemasan
+              obat.
+            </strong>
           </p>
         </div>
-        <div className="bud-ed-card">
-          <h3 className="bud-ed-subtitle ed">Expired Date (ED)</h3>
-          <p>
-            <strong>Definisi</strong>
-            <br />
-            Tanggal terakhir di mana keefektifan dan keamanan produk obat masih
-            terjamin untuk dikonsumsi atau digunakan oleh konsumen.
-          </p>
-          <p>
-            <strong>Kegunaan</strong>
-            <br />
-            Menentukan batasan waktu stabil suatu obat.
-          </p>
+      </section>
+      <div className="bud-extra-section">
+        <h3 className="bud-extra-title">
+          Catat yuk! <br />
+          Beyond Use Date (BUD) Sediaan Non Steril
+        </h3>
+
+        <table className="bud-extra-table">
+          <thead>
+            <tr>
+              <th>Sediaan</th>
+              <th>Beyond Use Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Topical/Dermal mengandung air, semisolid, mucosal liquid</td>
+              <td>30 Hari</td>
+            </tr>
+            <tr>
+              <td>Oral mengandung air</td>
+              <td>14 Hari pada suhu 2-8°C</td>
+            </tr>
+            <tr>
+              <td>Tetes mata mini dose</td>
+              <td>3x14 jam setelah dibuka</td>
+            </tr>
+            <tr>
+              <td>Tetes mata/telinga</td>
+              <td>28 hari setelah dibuka</td>
+            </tr>
+            <tr>
+              <td>Sirup kering</td>
+              <td>7–14 hari setelah diencerkan</td>
+            </tr>
+            <tr>
+              <td>Injeksi insulin multidose</td>
+              <td>
+                28 hari pada suhu ruang <br />
+                60 Hari pada suhu 2-8°C
+              </td>
+            </tr>
+            <tr>
+              <td>Racikan padat (puyer, kapsul)</td>
+              <td>
+                25% dari ED <br />
+                atau 180 hari setelah peracikan
+              </td>
+            </tr>
+            <tr>
+              <td>Racikan tidak mengandung air</td>
+              <td>
+                25% dari ED <br />
+                atau 90 hari setelah peracikan
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div className="poster-section">
+        <h1>Baca Poster Berikut Yuk Agar kita Semakin Mengenal Obat</h1>
+        <div className="image-container">
+          <img src="https://sipio.tangerangselatankota.go.id/static/media/ImgDagusibu.39a2adfb.svg" />
+          <div className="some-images">
+            <img src="https://sipio.tangerangselatankota.go.id/static/media/ImgTanyaLimao.640483ce.svg" />
+            <img src="https://sipio.tangerangselatankota.go.id/static/media/ImgGunakanObat.224a6c74.svg" />
+          </div>
         </div>
       </div>
-      <div className="bud-ed-notes">
-        <p className="bud-ed-note">
-          Waktu BUD bisa sama atau lebih pendek dibandingkan ED. Karena inilah
-          penting untuk tenaga kesehatan khususnya{" "}
-          <strong className="highlight">
-            Apoteker untuk mengetahui ketentuan dan mencantumkan pada kemasan
-            obat.
-          </strong>
-        </p>
-      </div>
-    </section>
+    </>
   );
 };
+
+export const InfoObat = () => {
+  return (
+    <>
+    </>
+  )
+}
+
+export const ArtikelObat = () => {
+  return (
+    <>
+    </>
+  )
+}
+
+export const TanyaApoteker = () => {
+  return (
+    <>
+    </>
+  )
+}

@@ -372,15 +372,19 @@
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
-  background-color: #e0f7fa; /* Light blue background for contrast */
+  background-color: #e0f7fa;
   padding: 20px;
   border-radius: 10px;
+}
+
+.info-boxes .box.active {
+  background-color: #00e5ff;
 }
 
 /* Style for individual boxes */
 .box {
   background-color: #ffffff; /* White background for boxes */
-  border: 1px solid #b2ebf2; /* Light border */
+  border-top: 4px solid #00ddfafa; /* Light border */
   border-radius: 10px;
   padding: 15px;
   text-align: center;
